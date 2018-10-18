@@ -13,7 +13,7 @@ function test1(){
         console.log("get him something yellow.");	
     }
     else{ 	
-	    console.log("that's not a colour")
+	    console.log("that's not a colour");
 	}
 }
 
@@ -30,7 +30,7 @@ function test2(){
 		alert("14 is a good age")
 		
 	}
-	else if(age > 14){
+	else if(age > 14 && age < 100){
 		alert("You're older than I thought")
 		
 	}
